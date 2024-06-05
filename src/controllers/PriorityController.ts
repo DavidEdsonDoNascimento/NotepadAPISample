@@ -1,4 +1,4 @@
-import { Annotations } from '@models/AnnotationModel';
+import { Annotations } from './../models/AnnotationModel';
 import { Request, Response } from 'express';
 
 class PriorityController {

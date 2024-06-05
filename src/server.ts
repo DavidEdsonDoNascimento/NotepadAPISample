@@ -1,5 +1,5 @@
 import express, { NextFunction } from 'express';
-import { ConnectionService } from '@services/ConnectionService';
+import { ConnectionService } from './services/ConnectionService';
 import { routes } from './router';
 import cors from 'cors';
 const PORT = 3333;

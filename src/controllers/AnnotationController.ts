@@ -1,6 +1,5 @@
-import { Annotations } from "@models/AnnotationModel";
+import { Annotations } from "./../models/AnnotationModel";
 import { Request, Response } from 'express';
-import { ObjectId } from "mongodb";
 
 type Annotation = {
   title: String,

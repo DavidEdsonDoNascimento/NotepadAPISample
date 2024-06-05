@@ -1,7 +1,7 @@
 import { Router } from 'express';
-import { AnnotationController } from '@controllers/AnnotationController'
-import { PriorityController } from '@controllers/PriorityController';
-import { DocsController } from '@controllers/DocsController';
+import { AnnotationController } from './../controllers/AnnotationController'
+import { PriorityController } from './../controllers/PriorityController';
+import { DocsController } from './../controllers/DocsController';
 
 const routes = Router();
 
